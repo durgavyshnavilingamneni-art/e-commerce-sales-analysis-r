@@ -202,15 +202,15 @@ Profit margin was calculated using:
 
 ```text
 Profit Margin = (Total Profit / Total Sales) × 100
-Key finding:
+**Key finding**
 
 Furniture had the highest profit margin.
 Profit margin was approximately 15.3%.
-11. Quantity vs Sales
+## 11. Quantity vs Sales
 
 A scatter plot was created to understand the relationship between quantity purchased and sales amount.
 
-12. Region and Category Analysis
+## 12. Region and Category Analysis
 
 Sales were analyzed using both region and product category.
 
@@ -220,16 +220,32 @@ This helps identify which categories perform well in different regions.
 
 The following visualizations were created using ggplot2:
 
-Total Sales by Category
-Monthly Sales Trend
-Top 10 Products by Sales
-Total Profit by Category
-Discount vs Total Profit
-Orders by Payment Mode
-Profit Margin by Category
-Quantity vs Sales
-Sales by Region and Category
+### Total Sales by Category
+![Total Sales by Category](visualizations/category_sales.png)
 
+### Monthly Sales Trend
+![Monthly Sales Trend](visualizations/monthly_sales_trend.png)
+
+### Top 10 Products
+![Top 10 Products](visualizations/top_10_products.png)
+
+### Total Profit by Category
+![Total Profit by Category](visualizations/profit_by_category.png)
+
+### Discount vs Profit
+![Discount vs Profit](visualizations/discount_vs_profit.png)
+
+### Orders by Payment Mode
+![Orders by Payment Mode](visualizations/payment_mode_orders.png)
+
+### Profit Margin by Category
+![Profit Margin by Category](visualizations/profit_margin_category.png)
+
+### Quantity vs Sales
+![Quantity vs Sales](visualizations/quantity_vs_sales.png)
+
+### Sales by Region and Category
+![Sales by Region and Category](visualizations/region_category_sales.png)
 All visualization images are stored in the visualizations folder.
 
 💡 Key Business Insights
@@ -278,7 +294,7 @@ library(lubridate)
 
 Set the working directory to the project folder.
 
-setwd("C:/Users/user/Desktop/E commerce-R")
+setwd()
 5. Run the R Script
 
 Open:
